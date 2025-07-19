@@ -64,7 +64,7 @@ fetch("/api/generate", requestOptions)
           </span>
         </button>
         {generated&& <code>
-          <span className="font-bold text-lg">Your Link</span>
+          <span className="font-bold text-lg">Your Link </span> <br />
           <Link target="_blank" href={generated}>{generated}</Link>
           </code>}
       </div>
