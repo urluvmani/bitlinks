@@ -4,7 +4,7 @@ import Link from "next/link";
 export default function Home() {
   return (
     <>
-    <div className="main grid grid-cols-2 w-full h-screen">
+    <div className="main grid  md:grid-cols-2 w-full sm:h-96  md:h-screen">
       <div className="left w-full h-136 flex flex-col justify-center items-center">
       <h2 className="md:text-4xl text-xl text-center text-gray-500 hover:text-gray-600 font-bold ">The best URL shortner</h2>
       <p className="text-center w-1/2 text-gray-600">We are the most straightforward url shortner in the World. Because we dont ask you to login.</p>

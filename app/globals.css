@@ -1,2 +1,13 @@
 @import "tailwindcss";
 
+
+@media (max-width: 480px) {
+  /* Styles for most smartphones */
+  .btn{
+    display: none;
+  }
+  nav{
+    padding-right: 0;
+  }
+}
+

@@ -40,7 +40,7 @@ fetch("/api/generate", requestOptions)
 
   return (
     <div className="w-full h-screen flex flex-col items-center justify-start mt-20">
-      <div className="w-1/3 h-auto flex flex-col justify-center rounded-md  items-start gap-2 bg-purple-200 p-4">
+      <div className="md:w-1/3 sm:w-full h-auto flex flex-col justify-center rounded-md  items-start gap-2 bg-purple-200 p-4">
         <h1 className="font-bold text-gray-700 text-2xl">
           Generate your short URLs
         </h1>
