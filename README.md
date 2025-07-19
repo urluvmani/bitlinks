@@ -1,28 +1,44 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 🌐 BitLinks — Fast & Simple URL Shortener
 
-## Getting Started
+[![Live Site](https://img.shields.io/badge/Visit-Site-blueviolet?style=for-the-badge&logo=vercel)](https://bitlinks-by-mani.vercel.app/)
+[![Status](https://img.shields.io/badge/Status-Live-brightgreen?style=for-the-badge)](https://bitlinks-by-mani.vercel.app/)
 
-First, run the development server:
+BitLinks is a modern, clean, and minimal **URL shortener web app** designed to convert long and messy URLs into short, shareable links.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+---
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🚀 Features
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+- 🔗 Shortens long URLs in a single click
+- 🎯 Unique short links with custom backend logic
+- 📦 Stores links securely in **MongoDB**
+- ⚡ Built using **Next.js App Router**
+- 🧪 Fully responsive & mobile-friendly
+- ☁️ Hosted on **Vercel** for blazing fast performance
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## 🖼️ Demo
 
-To learn more about Next.js, take a look at the following resources:
+🧭 Visit the live project here:  
+🔗 **[bitlinks-by-mani.vercel.app](https://bitlinks-by-mani.vercel.app/)**
+
+![BitLinks Screenshot](https://i.imgur.com/DsIXr1L.png) <!-- Optional: upload your site screenshot and replace link -->
+
+---
+
+## 🛠️ Built With
+
+- [Next.js 14](https://nextjs.org/)
+- [MongoDB Atlas](https://www.mongodb.com/atlas/database)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [Vercel](https://vercel.com/)
+- [React Toastify](https://fkhadra.github.io/react-toastify/)
+
+---
+
+## 📁 Folder Structure (App Router)
+
 
 - [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
 - [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
