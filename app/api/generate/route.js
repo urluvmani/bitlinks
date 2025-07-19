@@ -1,20 +1,23 @@
 import clientPromise from "@/lib/mongodb";
 
 export async function POST(request) {
-    const body = await request.json()
-    const client = await  clientPromise;
-    const db = await  client.db("bitlink")
-    const collection = await db.collection("links")
-
-    let doc = await collection.findOne({shorturl:body.shorturl})
-    if(doc){
-  return Response.json({ error:true, success:false ,  message: 'URL generated successfully' })
-
-    }
+  try {
+    const body = await request.json();
+    const client = await clientPromise;
+    const db = client.db("bitlink");
+    const collection = db.collection("links");
 
     await collection.insertOne({
-        url:body.url,
-        shorturl:body.shorturl
-    })
-  return Response.json({ error:false, success:true, message: 'URL generated successfully' })
+      url: body.url,
+      shorturl: body.shorturl,
+    });
+
+    return Response.json({ message: "URL generated successfully" });
+  } catch (error) {
+    console.error("❌ API Error:", error);
+    return new Response(JSON.stringify({ error: "Internal Server Error" }), {
+      status: 500,
+      headers: { "Content-Type": "application/json" },
+    });
+  }
 }
