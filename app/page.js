@@ -14,7 +14,7 @@ Lets Try
 </Link>
 </button>
       <button className="relative my-5 inline-flex items-center justify-center p-0.5 me-2 overflow-hidden text-sm font-medium text-gray-900 rounded-lg group bg-gradient-to-br from-purple-500 to-purple-500 group-hover:from-purple-500 group-hover:to-purple-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-purple-200 dark:focus:ring-purple-800">
-<Link href={"/shorten"} className="relative font-bold px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-purple-900 rounded-md group-hover:bg-transparent group-hover:dark:bg-transparent">
+<Link href={"/about"} className="relative font-bold px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-purple-900 rounded-md group-hover:bg-transparent group-hover:dark:bg-transparent">
 Read more
 </Link>
 </button></div>
